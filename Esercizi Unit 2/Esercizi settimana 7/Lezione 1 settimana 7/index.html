@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="petForm">
+        <label for="petName">Nome Animale:</label>
+        <input type="text" id="petName" required><br>
+      
+        <label for="ownerName">Nome Proprietario:</label>
+        <input type="text" id="ownerName" required><br>
+      
+        <label for="species">Specie:</label>
+        <input type="text" id="species" required><br>
+      
+        <label for="breed">Razza:</label>
+        <input type="text" id="breed" required><br>
+      
+        <button type="button" onclick="creaPet()">Aggiungi Pet</button>
+      </form>
+      
+      <ul id="petList"></ul>
+    <script src="script.js"></script>
+    <script src="pet.js"></script>
+</body>
+</html>

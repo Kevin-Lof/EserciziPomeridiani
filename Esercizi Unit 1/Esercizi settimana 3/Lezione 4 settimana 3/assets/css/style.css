@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+  }
+
+  td {
+    border: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+  }
+
+  button {
+    margin-top: 10px;
+  }

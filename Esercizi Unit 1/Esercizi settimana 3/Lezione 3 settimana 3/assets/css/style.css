@@ -1,0 +1,30 @@
+body {
+    background-color: blueviolet;
+    text-align: center;
+    padding-top: 275px;
+}
+
+div {
+    border-collapse: collapse;
+    border-radius: 20px;
+    border: 10px solid white;
+    width: 300px;
+    margin: 0 auto;
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+ul {
+    font-size: 20px;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+input,
+button {
+    height: 4vh;
+}
